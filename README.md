@@ -407,7 +407,7 @@
                     <input type="password" id="adminPassword" placeholder="Enter admin password">
                 </div>
                 <button class="btn btn-primary" onclick="checkPassword()">Login</button>
-                <p style="margin-top: 10px; opacity: 0.7; font-size: 0.9rem;">Password: artfest2025</p>
+                <p style="margin-top: 10px; opacity: 0.7; font-size: 0.9rem;">Password: artfest2k25nhia</p>
             </div>
             <div id="adminControls" style="display: none;">
                 <h3>🔧 Admin Controls</h3>
@@ -485,7 +485,7 @@
 
         let adminVisible = false;
         let isAdminLoggedIn = false;
-        const ADMIN_PASSWORD = "artfest2025";
+        const ADMIN_PASSWORD = "artfest2k25nhia";
 
         function checkPassword() {
             const password = document.getElementById('adminPassword').value;
